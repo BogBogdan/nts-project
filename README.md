@@ -6,7 +6,10 @@ Ovaj projekat se sastoji od Java backend servera koji parsira podatke i frontend
 
 ### Backend (Java)
 
-- **Zaduženje**: Backend server preuzima podatke sa API-ja (npr. Teltonika) i parsira ih u format koji je lako obradiv.
+- **Zaduženje**: Backend server učitava podatke sa resursa i parsira ih u format koji je lako obradjiv. Nakon čega korisnik može tražiti da primi te podatke.
+- Klasa Main pokrece jedan poziv parsera.
+- Klasa TeltonikaApplication pokrece server na kome korisnici mogu pristupiti tim podacima.
+
 - **Tehnologije**:
   - **Java**: Glavni jezik za razvoj.
   - **Spring Boot**: Okvir za izgradnju RESTful API-ja.
@@ -15,13 +18,14 @@ Ovaj projekat se sastoji od Java backend servera koji parsira podatke i frontend
 
 ### Frontend (React)
 
-- **Zaduženje**: Frontend aplikacija preuzima podatke sa backend servera i prikazuje ih korisniku.
+- **Zaduženje**: Frontend aplikacija preuzima podatke sa backend servera i prikazuje ih korisniku. Sadrži kratku arhitekturu web aplikacije i koristi Redux biblioteku u reactu za centralizaciju stanja. 
 - **Tehnologije**:
   - **React.js**: Biblioteka za izgradnju korisničkog interfejsa.
   - **Fetch API**: Koristi se za komunikaciju sa backend serverom i dobijanje podataka.
-- **Komponente(koje za obradu usera)**:
+- **Komponente(Za prikaz detaljnih podataka o korisniku)**:
   - `UserData`: Komponenta koja preuzima korisničke podatke i prikazuje ih.
   - `RecordDetails`: Komponenta koja prikazuje detalje svakog korisničkog zapisa.
+
 
 ## Kako pokrenuti projekat
 
