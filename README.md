@@ -34,7 +34,7 @@ Ovaj projekat se sastoji od Java backend servera koji parsira podatke i frontend
 - **Prerequisites**: Potreban instaliran JDK i Maven na sistemu.
 - **Kloni projekat**: Preuzmite ili klonirajte projekat sa repozitorijuma:
   ```bash
-  git clone https://github.com/username/ime-projekta.git
+  git clone https://github.com/BogBogdan/nts-project
 
 - Alati poput intellJ ili Eclipse
 
